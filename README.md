@@ -1,1 +1,1 @@
-Prueba de mi Cruso STRAPI - REACT - GRAPHQL
+Prueba de mi Curso STRAPI - REACT - GRAPHQL
