@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "especialidades",
+  "info": {
+    "singularName": "especialidad",
+    "pluralName": "especialidades",
+    "displayName": "Especialidad",
+    "description": "Área de estudio o carrera técnica"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  }
+}

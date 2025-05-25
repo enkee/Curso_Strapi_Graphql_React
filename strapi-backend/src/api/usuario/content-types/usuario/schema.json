@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usuarios",
+  "info": {
+    "singularName": "usuario",
+    "pluralName": "usuarios",
+    "displayName": "Usuario"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "dni": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "apellidos": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "unique": true
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "fechaNacimiento": {
+      "type": "date"
+    }
+  }
+}

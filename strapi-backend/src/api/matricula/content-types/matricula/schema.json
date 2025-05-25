@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "matriculas",
+  "info": {
+    "singularName": "matricula",
+    "pluralName": "matriculas",
+    "displayName": "Matrícula",
+    "description": "Registro de inscripción del estudiante en un módulo"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "fecha": {
+      "type": "date",
+      "required": true
+    },
+    "estudiante": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::estudiante.estudiante"
+    },
+    "modulo": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::modulo.modulo"
+    },
+    "observaciones": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modulos",
+  "info": {
+    "singularName": "modulo",
+    "pluralName": "modulos",
+    "displayName": "Módulo",
+    "description": "Módulo específico dentro de una especialidad"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "duracionHoras": {
+      "type": "integer"
+    },
+    "especialidad": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::especialidad.especialidad"
+    }
+  }
+}
