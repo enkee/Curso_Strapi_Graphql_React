@@ -1,0 +1,10 @@
+# Node modules
+**/node_modules
+# Build
+**/build
+**/.cache
+**/.tmp
+# Env files
+**/.env
+# Logs
+**/logs

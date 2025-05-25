@@ -1,0 +1,68 @@
+[
+  {
+    "id": 71,
+    "nombre": "computacion",
+    "modulos": [
+      {
+        "id": 71,
+        "nombre": "Diseño Publicitario",
+        "descripcion": null,
+        "duracionHoras": 300
+      },
+      {
+        "id": 66,
+        "nombre": "Ofimatica",
+        "descripcion": null,
+        "duracionHoras": 300
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "nombre": "estetica",
+    "modulos": [
+      {
+        "id": 67,
+        "nombre": "Peinados",
+        "descripcion": null,
+        "duracionHoras": 300
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "nombre": "hosteleria",
+    "modulos": [
+      {
+        "id": 68,
+        "nombre": "Panaderia",
+        "descripcion": null,
+        "duracionHoras": 300
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "nombre": "Manualidades",
+    "modulos": [
+      {
+        "id": 69,
+        "nombre": "Decoración de Eventos Especiales",
+        "descripcion": null,
+        "duracionHoras": 300
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "nombre": "Electricidad",
+    "modulos": [
+      {
+        "id": 70,
+        "nombre": "Instalaciones Eléctricas",
+        "descripcion": null,
+        "duracionHoras": 300
+      }
+    ]
+  }
+]
